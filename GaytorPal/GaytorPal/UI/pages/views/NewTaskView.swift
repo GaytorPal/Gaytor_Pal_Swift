@@ -1,18 +1,18 @@
 //
-//  SignInView.swift
+//  NewTaskView.swift
 //  GaytorPal
 //
-//  Created by David Denis on 2/9/24.
+//  Created by David Denis on 3/28/24.
 //
 
 import SwiftUI
 
-struct SignInView: View {
+struct NewTaskView: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
 #Preview {
-    SignInView()
+    NewTaskView()
 }
