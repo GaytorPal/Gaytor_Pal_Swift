@@ -7,11 +7,13 @@
 
 import SwiftUI
 
+
 @main
 struct GaytorPalApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(vm : AuthViewModel(user: User(id: "123", fullName: "David Denis", email: "denis@ufl.edu", username: "David"), taskVM: TaskViewModel()), clubVM: MyClubsViewModel())
+                
         }
     }
 }
