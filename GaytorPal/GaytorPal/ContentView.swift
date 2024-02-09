@@ -8,17 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @ObservedObject var vm : AuthViewModel
+    @StateObject var clubVM: MyClubsViewModel
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        
+        
+        if vm.loggedIn {
+            HomeView(vm: vm, clubVM: clubVM)
+        } else {
+            SignInView(vm: vm )
         }
-        .padding()
+        
+        
+        
     }
 }
 
 #Preview {
-    ContentView()
+    ContentView(vm: AuthViewModel(user: User(id: "123", fullName: "David Denis", email: "denis@ufl.edu", username: "David"), taskVM: TaskViewModel()), clubVM: MyClubsViewModel())
 }

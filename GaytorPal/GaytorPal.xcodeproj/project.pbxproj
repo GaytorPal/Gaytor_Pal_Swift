@@ -11,6 +11,63 @@
 		4609F1152B76A32C005DA132 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4609F1142B76A32C005DA132 /* ContentView.swift */; };
 		4609F1172B76A32D005DA132 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4609F1162B76A32D005DA132 /* Assets.xcassets */; };
 		4609F11A2B76A32D005DA132 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4609F1192B76A32D005DA132 /* Preview Assets.xcassets */; };
+		4609F13F2B76A5ED005DA132 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4609F1372B76A5ED005DA132 /* HomeViewModel.swift */; };
+		4609F1402B76A5ED005DA132 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4609F1382B76A5ED005DA132 /* HomeView.swift */; };
+		4609F1412B76A5ED005DA132 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4609F13A2B76A5ED005DA132 /* RegisterView.swift */; };
+		4609F1422B76A5ED005DA132 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4609F13B2B76A5ED005DA132 /* AuthViewModel.swift */; };
+		4609F1432B76A5ED005DA132 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4609F13D2B76A5ED005DA132 /* SignInView.swift */; };
+		462ADD752BD0591F00523FAA /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = 462ADD742BD0591F00523FAA /* Apollo */; };
+		462ADD7F2BD060B600523FAA /* LoginUser.graphql.swift in Resources */ = {isa = PBXBuildFile; fileRef = 462ADD7E2BD060B600523FAA /* LoginUser.graphql.swift */; };
+		462ADD922BD0620A00523FAA /* RequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462ADD912BD0620A00523FAA /* RequestHandler.swift */; };
+		462ADD942BD0626B00523FAA /* RegisterUser.graphql.swift in Resources */ = {isa = PBXBuildFile; fileRef = 462ADD932BD0626B00523FAA /* RegisterUser.graphql.swift */; };
+		462ADDAC2BD1883900523FAA /* TimerCountdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462ADDAB2BD1883900523FAA /* TimerCountdownView.swift */; };
+		465DC3972BD2CAEA0031ADCE /* schema.graphqls in Resources */ = {isa = PBXBuildFile; fileRef = 465DC3962BD2CAEA0031ADCE /* schema.graphqls */; };
+		465DC3CB2BD308520031ADCE /* AddAssignment.graphql.swift in Resources */ = {isa = PBXBuildFile; fileRef = 465DC3CA2BD308520031ADCE /* AddAssignment.graphql.swift */; };
+		465DC3E52BD72DF50031ADCE /* GetAssignments.graphql.swift in Resources */ = {isa = PBXBuildFile; fileRef = 465DC3E42BD72DF50031ADCE /* GetAssignments.graphql.swift */; };
+		465DC4252BD833BC0031ADCE /* CompletedAssignment.graphql.swift in Resources */ = {isa = PBXBuildFile; fileRef = 465DC4242BD833BC0031ADCE /* CompletedAssignment.graphql.swift */; };
+		465DC4AB2BD85AA80031ADCE /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465DC4AA2BD85AA80031ADCE /* AccountView.swift */; };
+		465DC4B72BD85AF00031ADCE /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465DC4AC2BD85AF00031ADCE /* CategoriesView.swift */; };
+		465DC4B82BD85AF00031ADCE /* CategoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465DC4AD2BD85AF00031ADCE /* CategoryItemView.swift */; };
+		465DC4B92BD85AF00031ADCE /* ClubDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465DC4AE2BD85AF00031ADCE /* ClubDetailView.swift */; };
+		465DC4BB2BD85AF00031ADCE /* ClubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465DC4B02BD85AF00031ADCE /* ClubView.swift */; };
+		465DC4BC2BD85AF00031ADCE /* FilteredClubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465DC4B12BD85AF00031ADCE /* FilteredClubView.swift */; };
+		465DC4BD2BD85AF00031ADCE /* MyClubsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465DC4B22BD85AF00031ADCE /* MyClubsViewModel.swift */; };
+		465DC4BE2BD85AF00031ADCE /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465DC4B32BD85AF00031ADCE /* SearchBarView.swift */; };
+		465DC4BF2BD85AF00031ADCE /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465DC4B42BD85AF00031ADCE /* SectionView.swift */; };
+		465DC4C02BD85AF00031ADCE /* SubscriptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465DC4B52BD85AF00031ADCE /* SubscriptionsView.swift */; };
+		465DC5042BD961080031ADCE /* ModifyAssignment.graphql.swift in Resources */ = {isa = PBXBuildFile; fileRef = 465DC5032BD961080031ADCE /* ModifyAssignment.graphql.swift */; };
+		465DC54C2BD9649C0031ADCE /* ModifyTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465DC54B2BD9649C0031ADCE /* ModifyTaskView.swift */; };
+		465DC54E2BD995450031ADCE /* ClubViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465DC54D2BD995450031ADCE /* ClubViewModel.swift */; };
+		465DC5502BD995640031ADCE /* GetAllClubs.graphql.swift in Resources */ = {isa = PBXBuildFile; fileRef = 465DC54F2BD995640031ADCE /* GetAllClubs.graphql.swift */; };
+		465DC5682BD995980031ADCE /* AddAssignmentMutation.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465DC5512BD995980031ADCE /* AddAssignmentMutation.graphql.swift */; };
+		465DC5692BD995980031ADCE /* LoginMutation.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465DC5522BD995980031ADCE /* LoginMutation.graphql.swift */; };
+		465DC56A2BD995980031ADCE /* ModifyTaskMutation.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465DC5532BD995980031ADCE /* ModifyTaskMutation.graphql.swift */; };
+		465DC56B2BD995980031ADCE /* RegisterUserMutation.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465DC5542BD995980031ADCE /* RegisterUserMutation.graphql.swift */; };
+		465DC56C2BD995980031ADCE /* ToggleAssignmentMutation.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465DC5552BD995980031ADCE /* ToggleAssignmentMutation.graphql.swift */; };
+		465DC56D2BD995980031ADCE /* GetAllClubsQuery.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465DC5572BD995980031ADCE /* GetAllClubsQuery.graphql.swift */; };
+		465DC56E2BD995980031ADCE /* GetAssignmentsByDueQuery.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465DC5582BD995980031ADCE /* GetAssignmentsByDueQuery.graphql.swift */; };
+		465DC56F2BD995980031ADCE /* RegisterInput.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465DC55B2BD995980031ADCE /* RegisterInput.graphql.swift */; };
+		465DC5702BD995980031ADCE /* Assignment.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465DC55D2BD995980031ADCE /* Assignment.graphql.swift */; };
+		465DC5712BD995980031ADCE /* Club.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465DC55E2BD995980031ADCE /* Club.graphql.swift */; };
+		465DC5722BD995980031ADCE /* Mutation.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465DC55F2BD995980031ADCE /* Mutation.graphql.swift */; };
+		465DC5732BD995980031ADCE /* Query.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465DC5602BD995980031ADCE /* Query.graphql.swift */; };
+		465DC5742BD995980031ADCE /* User.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465DC5612BD995980031ADCE /* User.graphql.swift */; };
+		465DC5752BD995980031ADCE /* SchemaConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465DC5632BD995980031ADCE /* SchemaConfiguration.swift */; };
+		465DC5762BD995980031ADCE /* SchemaMetadata.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465DC5642BD995980031ADCE /* SchemaMetadata.graphql.swift */; };
+		465DC5772BD995980031ADCE /* Gschema.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465DC5662BD995980031ADCE /* Gschema.graphql.swift */; };
+		46645F7C2BACD0DF00B7B122 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46645F7B2BACD0DF00B7B122 /* InputView.swift */; };
+		466A2E902BB336B600370799 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466A2E8F2BB336B600370799 /* User.swift */; };
+		466A2E9B2BB5F89800370799 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466A2E9A2BB5F89800370799 /* CalendarView.swift */; };
+		466A2EA02BB5FAA200370799 /* CalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466A2E9F2BB5FAA200370799 /* CalendarViewModel.swift */; };
+		466A2EA82BB600A500370799 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466A2EA72BB600A500370799 /* Date+Extensions.swift */; };
+		466A2EAA2BB600DB00370799 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466A2EA92BB600DB00370799 /* View+Extensions.swift */; };
+		466A2EAC2BB60ABE00370799 /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466A2EAB2BB60ABE00370799 /* WeekView.swift */; };
+		467A5B6F2BB67AF5004E118D /* Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467A5B6E2BB67AF5004E118D /* Assignment.swift */; };
+		467A5B722BB67BBE004E118D /* TaskCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467A5B712BB67BBE004E118D /* TaskCardView.swift */; };
+		467A5B742BC0559B004E118D /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467A5B732BC0559B004E118D /* TaskView.swift */; };
+		467A5B762BC055D9004E118D /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467A5B752BC055D9004E118D /* TaskViewModel.swift */; };
+		467A5B792BC05FD6004E118D /* NewTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467A5B782BC05FD6004E118D /* NewTaskView.swift */; };
+		46F7B80D2BCD7F1D004A337E /* TimerCountdownViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F7B80C2BCD7F1D004A337E /* TimerCountdownViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +76,62 @@
 		4609F1142B76A32C005DA132 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4609F1162B76A32D005DA132 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4609F1192B76A32D005DA132 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4609F1372B76A5ED005DA132 /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		4609F1382B76A5ED005DA132 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4609F13A2B76A5ED005DA132 /* RegisterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		4609F13B2B76A5ED005DA132 /* AuthViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		4609F13D2B76A5ED005DA132 /* SignInView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		462ADD7E2BD060B600523FAA /* LoginUser.graphql.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUser.graphql.swift; sourceTree = "<group>"; };
+		462ADD912BD0620A00523FAA /* RequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHandler.swift; sourceTree = "<group>"; };
+		462ADD932BD0626B00523FAA /* RegisterUser.graphql.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterUser.graphql.swift; sourceTree = "<group>"; };
+		462ADDAB2BD1883900523FAA /* TimerCountdownView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerCountdownView.swift; sourceTree = "<group>"; };
+		465DC3962BD2CAEA0031ADCE /* schema.graphqls */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = schema.graphqls; sourceTree = "<group>"; };
+		465DC3CA2BD308520031ADCE /* AddAssignment.graphql.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAssignment.graphql.swift; sourceTree = "<group>"; };
+		465DC3E42BD72DF50031ADCE /* GetAssignments.graphql.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAssignments.graphql.swift; sourceTree = "<group>"; };
+		465DC4242BD833BC0031ADCE /* CompletedAssignment.graphql.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedAssignment.graphql.swift; sourceTree = "<group>"; };
+		465DC4AA2BD85AA80031ADCE /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		465DC4AC2BD85AF00031ADCE /* CategoriesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+		465DC4AD2BD85AF00031ADCE /* CategoryItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryItemView.swift; sourceTree = "<group>"; };
+		465DC4AE2BD85AF00031ADCE /* ClubDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClubDetailView.swift; sourceTree = "<group>"; };
+		465DC4B02BD85AF00031ADCE /* ClubView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClubView.swift; sourceTree = "<group>"; };
+		465DC4B12BD85AF00031ADCE /* FilteredClubView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilteredClubView.swift; sourceTree = "<group>"; };
+		465DC4B22BD85AF00031ADCE /* MyClubsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyClubsViewModel.swift; sourceTree = "<group>"; };
+		465DC4B32BD85AF00031ADCE /* SearchBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		465DC4B42BD85AF00031ADCE /* SectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
+		465DC4B52BD85AF00031ADCE /* SubscriptionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscriptionsView.swift; sourceTree = "<group>"; };
+		465DC5032BD961080031ADCE /* ModifyAssignment.graphql.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyAssignment.graphql.swift; sourceTree = "<group>"; };
+		465DC54B2BD9649C0031ADCE /* ModifyTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyTaskView.swift; sourceTree = "<group>"; };
+		465DC54D2BD995450031ADCE /* ClubViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClubViewModel.swift; sourceTree = "<group>"; };
+		465DC54F2BD995640031ADCE /* GetAllClubs.graphql.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllClubs.graphql.swift; sourceTree = "<group>"; };
+		465DC5512BD995980031ADCE /* AddAssignmentMutation.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAssignmentMutation.graphql.swift; sourceTree = "<group>"; };
+		465DC5522BD995980031ADCE /* LoginMutation.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginMutation.graphql.swift; sourceTree = "<group>"; };
+		465DC5532BD995980031ADCE /* ModifyTaskMutation.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModifyTaskMutation.graphql.swift; sourceTree = "<group>"; };
+		465DC5542BD995980031ADCE /* RegisterUserMutation.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterUserMutation.graphql.swift; sourceTree = "<group>"; };
+		465DC5552BD995980031ADCE /* ToggleAssignmentMutation.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToggleAssignmentMutation.graphql.swift; sourceTree = "<group>"; };
+		465DC5572BD995980031ADCE /* GetAllClubsQuery.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetAllClubsQuery.graphql.swift; sourceTree = "<group>"; };
+		465DC5582BD995980031ADCE /* GetAssignmentsByDueQuery.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetAssignmentsByDueQuery.graphql.swift; sourceTree = "<group>"; };
+		465DC55B2BD995980031ADCE /* RegisterInput.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterInput.graphql.swift; sourceTree = "<group>"; };
+		465DC55D2BD995980031ADCE /* Assignment.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assignment.graphql.swift; sourceTree = "<group>"; };
+		465DC55E2BD995980031ADCE /* Club.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Club.graphql.swift; sourceTree = "<group>"; };
+		465DC55F2BD995980031ADCE /* Mutation.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mutation.graphql.swift; sourceTree = "<group>"; };
+		465DC5602BD995980031ADCE /* Query.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Query.graphql.swift; sourceTree = "<group>"; };
+		465DC5612BD995980031ADCE /* User.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.graphql.swift; sourceTree = "<group>"; };
+		465DC5632BD995980031ADCE /* SchemaConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchemaConfiguration.swift; sourceTree = "<group>"; };
+		465DC5642BD995980031ADCE /* SchemaMetadata.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchemaMetadata.graphql.swift; sourceTree = "<group>"; };
+		465DC5662BD995980031ADCE /* Gschema.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gschema.graphql.swift; sourceTree = "<group>"; };
+		46645F7B2BACD0DF00B7B122 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		466A2E8F2BB336B600370799 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		466A2E9A2BB5F89800370799 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		466A2E9F2BB5FAA200370799 /* CalendarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewModel.swift; sourceTree = "<group>"; };
+		466A2EA72BB600A500370799 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		466A2EA92BB600DB00370799 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		466A2EAB2BB60ABE00370799 /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
+		467A5B6E2BB67AF5004E118D /* Assignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment.swift; sourceTree = "<group>"; };
+		467A5B712BB67BBE004E118D /* TaskCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCardView.swift; sourceTree = "<group>"; };
+		467A5B732BC0559B004E118D /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		467A5B752BC055D9004E118D /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
+		467A5B782BC05FD6004E118D /* NewTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskView.swift; sourceTree = "<group>"; };
+		46F7B80C2BCD7F1D004A337E /* TimerCountdownViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerCountdownViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +139,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				462ADD752BD0591F00523FAA /* Apollo in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,6 +149,9 @@
 		4609F1062B76A32C005DA132 = {
 			isa = PBXGroup;
 			children = (
+				465DC5672BD995980031ADCE /* Gschema */,
+				465DC3962BD2CAEA0031ADCE /* schema.graphqls */,
+				462ADD7D2BD0608100523FAA /* GraphQL */,
 				4609F1112B76A32C005DA132 /* GaytorPal */,
 				4609F1102B76A32C005DA132 /* Products */,
 			);
@@ -51,6 +168,9 @@
 		4609F1112B76A32C005DA132 /* GaytorPal */ = {
 			isa = PBXGroup;
 			children = (
+				466A2EA62BB6007400370799 /* Helpers */,
+				466A2E8E2BB336A600370799 /* Model */,
+				4609F1342B76A5ED005DA132 /* UI */,
 				4609F1122B76A32C005DA132 /* GaytorPalApp.swift */,
 				4609F1142B76A32C005DA132 /* ContentView.swift */,
 				4609F1162B76A32D005DA132 /* Assets.xcassets */,
@@ -65,6 +185,208 @@
 				4609F1192B76A32D005DA132 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4609F1342B76A5ED005DA132 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				46645F7A2BACD0CF00B7B122 /* components */,
+				4609F1352B76A5ED005DA132 /* pages */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		4609F1352B76A5ED005DA132 /* pages */ = {
+			isa = PBXGroup;
+			children = (
+				465DC4B62BD85AF00031ADCE /* club */,
+				467A5B702BB67B8F004E118D /* task */,
+				466A2EA12BB5FF0500370799 /* views */,
+				466A2E9E2BB5FA9100370799 /* calendar */,
+				4609F1362B76A5ED005DA132 /* home */,
+				4609F1392B76A5ED005DA132 /* signIn - register */,
+			);
+			path = pages;
+			sourceTree = "<group>";
+		};
+		4609F1362B76A5ED005DA132 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				4609F1372B76A5ED005DA132 /* HomeViewModel.swift */,
+				4609F1382B76A5ED005DA132 /* HomeView.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		4609F1392B76A5ED005DA132 /* signIn - register */ = {
+			isa = PBXGroup;
+			children = (
+				4609F13D2B76A5ED005DA132 /* SignInView.swift */,
+				4609F13A2B76A5ED005DA132 /* RegisterView.swift */,
+				4609F13B2B76A5ED005DA132 /* AuthViewModel.swift */,
+				465DC4AA2BD85AA80031ADCE /* AccountView.swift */,
+			);
+			path = "signIn - register";
+			sourceTree = "<group>";
+		};
+		462ADD7D2BD0608100523FAA /* GraphQL */ = {
+			isa = PBXGroup;
+			children = (
+				462ADD912BD0620A00523FAA /* RequestHandler.swift */,
+				462ADD7E2BD060B600523FAA /* LoginUser.graphql.swift */,
+				462ADD932BD0626B00523FAA /* RegisterUser.graphql.swift */,
+				465DC3CA2BD308520031ADCE /* AddAssignment.graphql.swift */,
+				465DC3E42BD72DF50031ADCE /* GetAssignments.graphql.swift */,
+				465DC4242BD833BC0031ADCE /* CompletedAssignment.graphql.swift */,
+				465DC5032BD961080031ADCE /* ModifyAssignment.graphql.swift */,
+				465DC54F2BD995640031ADCE /* GetAllClubs.graphql.swift */,
+			);
+			path = GraphQL;
+			sourceTree = "<group>";
+		};
+		465DC4B62BD85AF00031ADCE /* club */ = {
+			isa = PBXGroup;
+			children = (
+				465DC54D2BD995450031ADCE /* ClubViewModel.swift */,
+				465DC4AC2BD85AF00031ADCE /* CategoriesView.swift */,
+				465DC4AD2BD85AF00031ADCE /* CategoryItemView.swift */,
+				465DC4AE2BD85AF00031ADCE /* ClubDetailView.swift */,
+				465DC4B02BD85AF00031ADCE /* ClubView.swift */,
+				465DC4B12BD85AF00031ADCE /* FilteredClubView.swift */,
+				465DC4B22BD85AF00031ADCE /* MyClubsViewModel.swift */,
+				465DC4B32BD85AF00031ADCE /* SearchBarView.swift */,
+				465DC4B42BD85AF00031ADCE /* SectionView.swift */,
+				465DC4B52BD85AF00031ADCE /* SubscriptionsView.swift */,
+			);
+			path = club;
+			sourceTree = "<group>";
+		};
+		465DC5562BD995980031ADCE /* Mutations */ = {
+			isa = PBXGroup;
+			children = (
+				465DC5512BD995980031ADCE /* AddAssignmentMutation.graphql.swift */,
+				465DC5522BD995980031ADCE /* LoginMutation.graphql.swift */,
+				465DC5532BD995980031ADCE /* ModifyTaskMutation.graphql.swift */,
+				465DC5542BD995980031ADCE /* RegisterUserMutation.graphql.swift */,
+				465DC5552BD995980031ADCE /* ToggleAssignmentMutation.graphql.swift */,
+			);
+			path = Mutations;
+			sourceTree = "<group>";
+		};
+		465DC5592BD995980031ADCE /* Queries */ = {
+			isa = PBXGroup;
+			children = (
+				465DC5572BD995980031ADCE /* GetAllClubsQuery.graphql.swift */,
+				465DC5582BD995980031ADCE /* GetAssignmentsByDueQuery.graphql.swift */,
+			);
+			path = Queries;
+			sourceTree = "<group>";
+		};
+		465DC55A2BD995980031ADCE /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				465DC5562BD995980031ADCE /* Mutations */,
+				465DC5592BD995980031ADCE /* Queries */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		465DC55C2BD995980031ADCE /* InputObjects */ = {
+			isa = PBXGroup;
+			children = (
+				465DC55B2BD995980031ADCE /* RegisterInput.graphql.swift */,
+			);
+			path = InputObjects;
+			sourceTree = "<group>";
+		};
+		465DC5622BD995980031ADCE /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				465DC55D2BD995980031ADCE /* Assignment.graphql.swift */,
+				465DC55E2BD995980031ADCE /* Club.graphql.swift */,
+				465DC55F2BD995980031ADCE /* Mutation.graphql.swift */,
+				465DC5602BD995980031ADCE /* Query.graphql.swift */,
+				465DC5612BD995980031ADCE /* User.graphql.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		465DC5652BD995980031ADCE /* Schema */ = {
+			isa = PBXGroup;
+			children = (
+				465DC55C2BD995980031ADCE /* InputObjects */,
+				465DC5622BD995980031ADCE /* Objects */,
+				465DC5632BD995980031ADCE /* SchemaConfiguration.swift */,
+				465DC5642BD995980031ADCE /* SchemaMetadata.graphql.swift */,
+			);
+			path = Schema;
+			sourceTree = "<group>";
+		};
+		465DC5672BD995980031ADCE /* Gschema */ = {
+			isa = PBXGroup;
+			children = (
+				465DC55A2BD995980031ADCE /* Operations */,
+				465DC5652BD995980031ADCE /* Schema */,
+				465DC5662BD995980031ADCE /* Gschema.graphql.swift */,
+			);
+			path = Gschema;
+			sourceTree = "<group>";
+		};
+		46645F7A2BACD0CF00B7B122 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				46645F7B2BACD0DF00B7B122 /* InputView.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		466A2E8E2BB336A600370799 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				466A2E8F2BB336B600370799 /* User.swift */,
+				467A5B6E2BB67AF5004E118D /* Assignment.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		466A2E9E2BB5FA9100370799 /* calendar */ = {
+			isa = PBXGroup;
+			children = (
+				466A2E9A2BB5F89800370799 /* CalendarView.swift */,
+				466A2E9F2BB5FAA200370799 /* CalendarViewModel.swift */,
+			);
+			path = calendar;
+			sourceTree = "<group>";
+		};
+		466A2EA12BB5FF0500370799 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				466A2EAB2BB60ABE00370799 /* WeekView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		466A2EA62BB6007400370799 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				466A2EA72BB600A500370799 /* Date+Extensions.swift */,
+				466A2EA92BB600DB00370799 /* View+Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		467A5B702BB67B8F004E118D /* task */ = {
+			isa = PBXGroup;
+			children = (
+				467A5B712BB67BBE004E118D /* TaskCardView.swift */,
+				467A5B732BC0559B004E118D /* TaskView.swift */,
+				467A5B752BC055D9004E118D /* TaskViewModel.swift */,
+				467A5B782BC05FD6004E118D /* NewTaskView.swift */,
+				462ADDAB2BD1883900523FAA /* TimerCountdownView.swift */,
+				46F7B80C2BCD7F1D004A337E /* TimerCountdownViewModel.swift */,
+				465DC54B2BD9649C0031ADCE /* ModifyTaskView.swift */,
+			);
+			path = task;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +405,9 @@
 			dependencies = (
 			);
 			name = GaytorPal;
+			packageProductDependencies = (
+				462ADD742BD0591F00523FAA /* Apollo */,
+			);
 			productName = GaytorPal;
 			productReference = 4609F10F2B76A32C005DA132 /* GaytorPal.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +436,9 @@
 				Base,
 			);
 			mainGroup = 4609F1062B76A32C005DA132;
+			packageReferences = (
+				462ADD732BD0591F00523FAA /* XCRemoteSwiftPackageReference "apollo-ios" */,
+			);
 			productRefGroup = 4609F1102B76A32C005DA132 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +453,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				465DC5042BD961080031ADCE /* ModifyAssignment.graphql.swift in Resources */,
+				465DC3CB2BD308520031ADCE /* AddAssignment.graphql.swift in Resources */,
+				465DC3E52BD72DF50031ADCE /* GetAssignments.graphql.swift in Resources */,
 				4609F11A2B76A32D005DA132 /* Preview Assets.xcassets in Resources */,
+				465DC3972BD2CAEA0031ADCE /* schema.graphqls in Resources */,
+				462ADD942BD0626B00523FAA /* RegisterUser.graphql.swift in Resources */,
+				465DC5502BD995640031ADCE /* GetAllClubs.graphql.swift in Resources */,
 				4609F1172B76A32D005DA132 /* Assets.xcassets in Resources */,
+				465DC4252BD833BC0031ADCE /* CompletedAssignment.graphql.swift in Resources */,
+				462ADD7F2BD060B600523FAA /* LoginUser.graphql.swift in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +473,56 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				465DC54E2BD995450031ADCE /* ClubViewModel.swift in Sources */,
+				465DC4BB2BD85AF00031ADCE /* ClubView.swift in Sources */,
+				465DC5762BD995980031ADCE /* SchemaMetadata.graphql.swift in Sources */,
+				467A5B762BC055D9004E118D /* TaskViewModel.swift in Sources */,
+				465DC4BD2BD85AF00031ADCE /* MyClubsViewModel.swift in Sources */,
+				465DC56A2BD995980031ADCE /* ModifyTaskMutation.graphql.swift in Sources */,
+				46F7B80D2BCD7F1D004A337E /* TimerCountdownViewModel.swift in Sources */,
+				465DC56E2BD995980031ADCE /* GetAssignmentsByDueQuery.graphql.swift in Sources */,
+				466A2EA02BB5FAA200370799 /* CalendarViewModel.swift in Sources */,
+				465DC4BF2BD85AF00031ADCE /* SectionView.swift in Sources */,
+				466A2E9B2BB5F89800370799 /* CalendarView.swift in Sources */,
+				465DC4BE2BD85AF00031ADCE /* SearchBarView.swift in Sources */,
+				467A5B742BC0559B004E118D /* TaskView.swift in Sources */,
+				465DC4BC2BD85AF00031ADCE /* FilteredClubView.swift in Sources */,
 				4609F1152B76A32C005DA132 /* ContentView.swift in Sources */,
+				465DC56B2BD995980031ADCE /* RegisterUserMutation.graphql.swift in Sources */,
+				465DC5702BD995980031ADCE /* Assignment.graphql.swift in Sources */,
+				4609F1432B76A5ED005DA132 /* SignInView.swift in Sources */,
+				465DC5732BD995980031ADCE /* Query.graphql.swift in Sources */,
+				4609F1422B76A5ED005DA132 /* AuthViewModel.swift in Sources */,
+				462ADD922BD0620A00523FAA /* RequestHandler.swift in Sources */,
+				466A2EAC2BB60ABE00370799 /* WeekView.swift in Sources */,
+				465DC5722BD995980031ADCE /* Mutation.graphql.swift in Sources */,
+				465DC5772BD995980031ADCE /* Gschema.graphql.swift in Sources */,
+				465DC54C2BD9649C0031ADCE /* ModifyTaskView.swift in Sources */,
+				465DC4AB2BD85AA80031ADCE /* AccountView.swift in Sources */,
+				462ADDAC2BD1883900523FAA /* TimerCountdownView.swift in Sources */,
+				465DC56C2BD995980031ADCE /* ToggleAssignmentMutation.graphql.swift in Sources */,
+				465DC56D2BD995980031ADCE /* GetAllClubsQuery.graphql.swift in Sources */,
+				466A2EAA2BB600DB00370799 /* View+Extensions.swift in Sources */,
+				4609F1412B76A5ED005DA132 /* RegisterView.swift in Sources */,
+				465DC5752BD995980031ADCE /* SchemaConfiguration.swift in Sources */,
+				4609F1402B76A5ED005DA132 /* HomeView.swift in Sources */,
+				465DC5712BD995980031ADCE /* Club.graphql.swift in Sources */,
+				467A5B722BB67BBE004E118D /* TaskCardView.swift in Sources */,
+				466A2EA82BB600A500370799 /* Date+Extensions.swift in Sources */,
+				466A2E902BB336B600370799 /* User.swift in Sources */,
+				465DC56F2BD995980031ADCE /* RegisterInput.graphql.swift in Sources */,
+				465DC5692BD995980031ADCE /* LoginMutation.graphql.swift in Sources */,
+				465DC4B72BD85AF00031ADCE /* CategoriesView.swift in Sources */,
+				46645F7C2BACD0DF00B7B122 /* InputView.swift in Sources */,
+				465DC5742BD995980031ADCE /* User.graphql.swift in Sources */,
+				4609F13F2B76A5ED005DA132 /* HomeViewModel.swift in Sources */,
+				467A5B792BC05FD6004E118D /* NewTaskView.swift in Sources */,
+				465DC4C02BD85AF00031ADCE /* SubscriptionsView.swift in Sources */,
 				4609F1132B76A32C005DA132 /* GaytorPalApp.swift in Sources */,
+				467A5B6F2BB67AF5004E118D /* Assignment.swift in Sources */,
+				465DC4B92BD85AF00031ADCE /* ClubDetailView.swift in Sources */,
+				465DC4B82BD85AF00031ADCE /* CategoryItemView.swift in Sources */,
+				465DC5682BD995980031ADCE /* AddAssignmentMutation.graphql.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +728,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		462ADD732BD0591F00523FAA /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.10.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		462ADD742BD0591F00523FAA /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 462ADD732BD0591F00523FAA /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4609F1072B76A32C005DA132 /* Project object */;
 }
