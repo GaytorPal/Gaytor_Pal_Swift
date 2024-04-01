@@ -1,1 +1,0 @@
-# Gaytor_Pal_Swift
