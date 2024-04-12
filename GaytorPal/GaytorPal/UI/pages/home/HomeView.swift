@@ -15,7 +15,7 @@ struct HomeView: View {
         ZStack {
             
             TabView {
-                CalendarView()
+                CalendarView(taskModel: TaskViewModel())
                     .tabItem {
                         Label("Calendar", systemImage: "calendar")
                     }

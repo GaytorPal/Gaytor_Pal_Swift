@@ -26,13 +26,14 @@
 		466A2E9B2BB5F89800370799 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466A2E9A2BB5F89800370799 /* CalendarView.swift */; };
 		466A2E9D2BB5F91200370799 /* ClubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466A2E9C2BB5F91200370799 /* ClubView.swift */; };
 		466A2EA02BB5FAA200370799 /* CalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466A2E9F2BB5FAA200370799 /* CalendarViewModel.swift */; };
-		466A2EA32BB5FF2F00370799 /* NewTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466A2EA22BB5FF2F00370799 /* NewTaskView.swift */; };
-		466A2EA52BB5FF3D00370799 /* NewTaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466A2EA42BB5FF3D00370799 /* NewTaskViewModel.swift */; };
 		466A2EA82BB600A500370799 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466A2EA72BB600A500370799 /* Date+Extensions.swift */; };
 		466A2EAA2BB600DB00370799 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466A2EA92BB600DB00370799 /* View+Extensions.swift */; };
 		466A2EAC2BB60ABE00370799 /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466A2EAB2BB60ABE00370799 /* WeekView.swift */; };
 		467A5B6F2BB67AF5004E118D /* Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467A5B6E2BB67AF5004E118D /* Assignment.swift */; };
 		467A5B722BB67BBE004E118D /* TaskCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467A5B712BB67BBE004E118D /* TaskCardView.swift */; };
+		467A5B742BC0559B004E118D /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467A5B732BC0559B004E118D /* TaskView.swift */; };
+		467A5B762BC055D9004E118D /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467A5B752BC055D9004E118D /* TaskViewModel.swift */; };
+		467A5B792BC05FD6004E118D /* NewTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467A5B782BC05FD6004E118D /* NewTaskView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,13 +53,14 @@
 		466A2E9A2BB5F89800370799 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		466A2E9C2BB5F91200370799 /* ClubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubView.swift; sourceTree = "<group>"; };
 		466A2E9F2BB5FAA200370799 /* CalendarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewModel.swift; sourceTree = "<group>"; };
-		466A2EA22BB5FF2F00370799 /* NewTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskView.swift; sourceTree = "<group>"; };
-		466A2EA42BB5FF3D00370799 /* NewTaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskViewModel.swift; sourceTree = "<group>"; };
 		466A2EA72BB600A500370799 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 		466A2EA92BB600DB00370799 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		466A2EAB2BB60ABE00370799 /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
 		467A5B6E2BB67AF5004E118D /* Assignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment.swift; sourceTree = "<group>"; };
 		467A5B712BB67BBE004E118D /* TaskCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCardView.swift; sourceTree = "<group>"; };
+		467A5B732BC0559B004E118D /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		467A5B752BC055D9004E118D /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
+		467A5B782BC05FD6004E118D /* NewTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,8 +187,6 @@
 			isa = PBXGroup;
 			children = (
 				466A2E9C2BB5F91200370799 /* ClubView.swift */,
-				466A2EA22BB5FF2F00370799 /* NewTaskView.swift */,
-				466A2EA42BB5FF3D00370799 /* NewTaskViewModel.swift */,
 				466A2EAB2BB60ABE00370799 /* WeekView.swift */,
 			);
 			path = views;
@@ -205,6 +205,9 @@
 			isa = PBXGroup;
 			children = (
 				467A5B712BB67BBE004E118D /* TaskCardView.swift */,
+				467A5B732BC0559B004E118D /* TaskView.swift */,
+				467A5B752BC055D9004E118D /* TaskViewModel.swift */,
+				467A5B782BC05FD6004E118D /* NewTaskView.swift */,
 			);
 			path = task;
 			sourceTree = "<group>";
@@ -289,9 +292,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				466A2EA52BB5FF3D00370799 /* NewTaskViewModel.swift in Sources */,
+				467A5B762BC055D9004E118D /* TaskViewModel.swift in Sources */,
 				466A2EA02BB5FAA200370799 /* CalendarViewModel.swift in Sources */,
 				466A2E9B2BB5F89800370799 /* CalendarView.swift in Sources */,
+				467A5B742BC0559B004E118D /* TaskView.swift in Sources */,
 				4609F1152B76A32C005DA132 /* ContentView.swift in Sources */,
 				4609F1432B76A5ED005DA132 /* SignInView.swift in Sources */,
 				4609F1422B76A5ED005DA132 /* AuthViewModel.swift in Sources */,
@@ -302,9 +306,9 @@
 				467A5B722BB67BBE004E118D /* TaskCardView.swift in Sources */,
 				466A2EA82BB600A500370799 /* Date+Extensions.swift in Sources */,
 				466A2E902BB336B600370799 /* User.swift in Sources */,
-				466A2EA32BB5FF2F00370799 /* NewTaskView.swift in Sources */,
 				46645F7C2BACD0DF00B7B122 /* InputView.swift in Sources */,
 				4609F13F2B76A5ED005DA132 /* HomeViewModel.swift in Sources */,
+				467A5B792BC05FD6004E118D /* NewTaskView.swift in Sources */,
 				4609F1132B76A32C005DA132 /* GaytorPalApp.swift in Sources */,
 				467A5B6F2BB67AF5004E118D /* Assignment.swift in Sources */,
 				466A2E9D2BB5F91200370799 /* ClubView.swift in Sources */,

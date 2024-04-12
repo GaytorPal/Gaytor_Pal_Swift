@@ -23,6 +23,6 @@ struct ContentView: View {
 }
 
 #Preview {
-    CalendarView()
+    CalendarView(taskModel: TaskViewModel())
         .environmentObject(AuthViewModel())
 }

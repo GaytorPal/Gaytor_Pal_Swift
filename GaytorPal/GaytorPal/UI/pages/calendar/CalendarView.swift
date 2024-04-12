@@ -9,10 +9,14 @@ import SwiftUI
 
 struct CalendarView: View {
     
-    @State private var currentDate: Date = .init()
+    @State private var currentDate: Date = Date()
     @State private var weekSlider: [[Date.Weekday]] = []
     @State private var currentWeekIndex: Int = 1
     @State private var changedWeek: Bool = false
+    @State private var createNewTask: Bool = false
+    
+    
+    @ObservedObject var taskModel: TaskViewModel
     
     var body: some View {
         
@@ -21,20 +25,31 @@ struct CalendarView: View {
             
             ScrollView {
                 
-                if(currentDate.isToday) {
-                    TaskCardView(task: Assignment(taskTitle: "Complete Presentation", taskDescription: "Finish Sprint 1", dueDate: Date.init()))
+                
+                
+                TaskView(taskModel: taskModel, selectedDate: $currentDate)
                     
-                    TaskCardView(task: Assignment(taskTitle: "Study", taskDescription: "Differential Equations Exam", dueDate: Date()))
-                    
-                    TaskCardView(task: Assignment(taskTitle: "Register", taskDescription: "Summer and Fall Registration", dueDate: Date.init()))
-                    
-                    TaskCardView(task: Assignment(taskTitle: "Group Proposal", taskDescription: "Quest 2 Chagas Disease Solution", dueDate: Date.init()))
-                }
             }
-            .animation(.default)
+            
+            
+            
         }
         .vSpacing(.top)
-        .background(.linearGradient(colors: [.cyan, .black], startPoint: .topLeading, endPoint: .bottomTrailing))
+        .overlay(alignment: .bottomTrailing, content: {
+            
+            Button(action: {
+                createNewTask.toggle()
+            }, label: {
+                Image(systemName: "plus")
+                    .fontWeight(.semibold)
+                    .foregroundStyle(.black)
+                    .frame(width: 50, height: 50)
+                    .background(.white, in: .circle)
+            })
+            .padding(15)
+            
+        })
+        .background(.linearGradient(colors: [.black, .cyan], startPoint: .topLeading, endPoint: .bottomTrailing))
         .onAppear(perform: {
             if weekSlider.isEmpty {
                 let currentWeek = Date().fetchWeek()
@@ -51,6 +66,16 @@ struct CalendarView: View {
                 
             }
         })
+        .sheet(isPresented: $createNewTask, content: {
+            NewTaskView(taskModel: taskModel)
+                .presentationDetents([.height(400)])
+                .presentationCornerRadius(30)
+                .padding()
+            
+        })
+        
+        
+        
         
         
         
@@ -68,7 +93,7 @@ struct CalendarView: View {
             HStack {
                 
                 Text(currentDate.isToday ? "Today" : currentDate.format("MMMM"))
-                    .foregroundStyle(currentDate.isToday ? .white : .black)
+                    .foregroundStyle(currentDate.isToday ? .blue : .white)
                 
                 Text(currentDate.isToday ? "" : currentDate.format("YYYY"))
                     .foregroundStyle(.white)
@@ -81,6 +106,7 @@ struct CalendarView: View {
                 .font(.caption)
                 .fontWeight(.semibold)
                 .textScale(.secondary)
+                .foregroundStyle(.white)
             
             
             /// Week Slider
@@ -117,7 +143,7 @@ struct CalendarView: View {
         if weekSlider.indices.contains(currentWeekIndex) {
             
             if let firstDate = weekSlider[currentWeekIndex].first?.date, currentWeekIndex == 0 {
-                // Inserting new week at 0th and removinf last array item
+                // Inserting new week at 0th and removing last array item
                 weekSlider.insert(firstDate.createPreviousWeek(), at: 0)
                 weekSlider.removeLast()
                 currentWeekIndex = 1
@@ -137,5 +163,5 @@ struct CalendarView: View {
 }
 
 #Preview {
-    CalendarView()
+    CalendarView(taskModel: TaskViewModel())
 }

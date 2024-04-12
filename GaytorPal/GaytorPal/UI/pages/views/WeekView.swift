@@ -24,6 +24,7 @@ struct WeekView: View {
                         .font(.subheadline)
                         .textScale(.secondary)
                         .fontWeight(.semibold)
+                        .foregroundStyle(.white)
                     
                     
                     Text(day.date.format("dd"))
@@ -40,10 +41,11 @@ struct WeekView: View {
                             
                             if day.date.isToday {
                                 Circle()
-                                    .fill(.black)
+                                    .fill(.white)
                                     .frame(width: 5, height: 5)
                                     .vSpacing(.bottom)
                                     .offset(y: 12)
+                                    
                             }
                         })
                         .background(.white.shadow(.drop(radius: 1)), in: .rect(cornerRadius: 25))
@@ -75,4 +77,6 @@ struct WeekView: View {
 
 #Preview {
     WeekView(week: [Date.Weekday(date: Date.init())], currentDate: .constant(Date.init()))
+        
+        .preferredColorScheme(.dark)
 }

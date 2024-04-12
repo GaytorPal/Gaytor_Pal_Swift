@@ -12,13 +12,15 @@ struct TaskCardView: View {
     @State var task: Assignment
     @State var done: Bool = false
     
+    @State private var isVisible: Bool = false
+    
     var body: some View {
         
         HStack(alignment: .center) {
             
             VStack {
                 Button {
-                    // pass
+                    
                     done.toggle()
                 } label: {
                     Image(systemName: done ? "checkmark.circle.fill" : "circle")
@@ -62,16 +64,27 @@ struct TaskCardView: View {
             }
             .padding()
             .background(
-            
+                
                 Color(.lightGray)
                     .clipShape(RoundedRectangle(cornerRadius: 25))
             )
         }
+        
+        
+        .onAppear {
+            self.isVisible = true
+        }
+        .opacity(isVisible ? 1 : 0)
+                            //.transition(.scale.combined(with: .opacity))
+        .animation(Animation.easeIn(duration: 1.5), value: isVisible)
+        
+        
         .padding()
+        
     }
     
 }
 
 #Preview {
-    TaskCardView(task: Assignment(taskTitle: "HW 15", taskDescription: "Do exercises 1-6 from Section 12.7 of the book.", dueDate: Date.init()))
+    TaskCardView(task: Assignment(taskTitle: "HW 15", taskDescription: "Do exercises 1-6 from Section 12.7 of the book.", dueDate: Date.init(), category: .assignment))
 }
