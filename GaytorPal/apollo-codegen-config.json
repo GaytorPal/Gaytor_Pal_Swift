@@ -1,0 +1,29 @@
+{
+  "schemaNamespace" : "Gschema",
+  "input" : {
+    "operationSearchPaths" : [
+      "./GraphQL/*.graphql.swift"
+    ],
+    "schemaSearchPaths" : [
+      "./*.graphqls"
+    ]
+  },
+  "output" : {
+    "testMocks" : {
+      "none" : {
+      }
+    },
+    "schemaTypes" : {
+      "path" : "./Gschema",
+      "moduleType" : {
+        "embeddedInTarget" : {
+          "name" : "GaytorPal"
+        }
+      }
+    },
+    "operations" : {
+      "inSchemaModule" : {
+      }
+    }
+  }
+}

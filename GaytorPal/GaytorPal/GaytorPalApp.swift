@@ -6,12 +6,24 @@
 //
 
 import SwiftUI
+import Firebase
 
 @main
-struct GaytorPalApp: App {
+struct SwiftUIAuthTutorialApp: App {
+    @StateObject var viewModel = AuthViewModel()
+    @StateObject var clubsViewModel = MyClubsViewModel() 
+
+    
+    init() {
+        FirebaseApp.configure()
+    }
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(viewModel)
+                .environmentObject(clubsViewModel) // Provide MyClubsViewModel to the environment
+
         }
     }
 }
